@@ -1,10 +1,9 @@
 """
     Purpose of loader.py:
     Load saves to parquet and enables DuckDB queries. 
-    Parquet used because it is fast, compressed, and 
-    partitioned (by symbol/date) for quick access without 
-    loading all data
-    DuckDB used over full DB for simplicity and speed.
+    Parquet is used because it is fast, compressed, and 
+    partitioned for efficient querying.
+    DuckDB is used for simple, fast SQL analytics.
 """
 
 import pyarrow as pa
@@ -12,7 +11,8 @@ import pyarrow.parquet as pq
 import duckdb
 import os
 
-DATA_DIR = "../data/"                                 # Relative path from src
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data")
 
 def load_to_parquet(df):
     """
@@ -22,8 +22,11 @@ def load_to_parquet(df):
     
     if df is None:
         return
+    
     os.makedirs(DATA_DIR, exist_ok=True)              # Create data dir if missing
+    
     table = pa.table.from_pandas(df)                  # Convert DataFrame to Arrow Table
+    
     pq.write_to_dataset(                              # Appends without duplicates. Folders auto-created
         table,
         root_path=DATA_DIR,
@@ -33,11 +36,14 @@ def load_to_parquet(df):
 def query_data(sql_query):
     """
         Queries the parquet dataset using DuckDB SQL.
-        Exmaple: "SELECT * FROM stock_data WHERE symbol='BP.L'"
+        Exmaple: 
+            "SELECT * FROM stock_data WHERE symbol='BP.L'"
     """
     
-    con = duckdb.connect()                          # In-memory DuckDB
-    con.register("stock_data", pq.read_table(DATA_DIR))
-#   ^^^Register entire dataset as a virtual table^^^
+    con = duckdb.connect()                           # In-memory DuckDB
+    con.execute(f"""
+            CREATE VIEW stock_data AS
+            SELECT * FROM parquet_scan('{DATA_DIR}/**/*.parquet');
+            """)                                     # Scans all parquet files recursively
 
-    return con.execute(query).fetchdf()             # Runs SQL, returns DataFrame  
+    return con.execute(sql_query).fetchdf()              # Runs SQL, returns DataFrame  
