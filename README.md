@@ -223,16 +223,3 @@ Use `.gitignore` to keep secrets safe.
 
 ---
 
-## Summary
-
-This project demonstrates a clean, modular, and production‑ready ETL pipeline with:
-
-- Incremental ingestion  
-- Strong separation of concerns  
-- Partitioned Parquet storage  
-- SQL analytics via DuckDB  
-- Automated orchestration  
-- Full unit test coverage  
-
-Perfect for data‑engineering portfolios, interviews, and real‑world ingestion workflows.
-
