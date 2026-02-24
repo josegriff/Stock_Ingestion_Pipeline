@@ -196,8 +196,7 @@ Create a `.env` file inside `config/`:
 ALPHA_VANTAGE_API_KEY=your_api_key_here
 ```
 
-**Never commit `.env` files.**  
-Use `.gitignore` to keep secrets safe.
+Use `.gitignore` to keep .env files private. 
 
 ---
 
