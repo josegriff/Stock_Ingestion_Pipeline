@@ -6,3 +6,9 @@ venv/
 
 # Ignore Python cash
 __pycache__/
+
+# Ignore data
+data/
+
+# Ignore state folder
+state/
