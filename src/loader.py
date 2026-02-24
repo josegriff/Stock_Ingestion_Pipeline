@@ -10,6 +10,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import duckdb
 import os
+from loguru import logger
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -20,18 +21,27 @@ def load_to_parquet(df):
         Partitions by symbol and date for efficient queries.
     """
     
-    if df is None:
+    if df is None or df.empty:
+        logger.warning("No new data to write - skipping Parquet load.")
         return
     
     os.makedirs(DATA_DIR, exist_ok=True)              # Create data dir if missing
     
-    table = pa.table.from_pandas(df)                  # Convert DataFrame to Arrow Table
-    
-    pq.write_to_dataset(                              # Appends without duplicates. Folders auto-created
-        table,
-        root_path=DATA_DIR,
-        partition_cols=["symbol", "date"]             # Creates folders like symbol=AAPL/date=2026-02-15
-    )
+    try:
+        table = pa.Table.from_pandas(df)                  # Convert DataFrame to Arrow Table
+    except Exception as e:
+        logger.error(f"Failed converting DatafFrame to Arrow Table: {e}")
+        raise
+    try:
+        pq.write_to_dataset(                              # Appends without duplicates. Folders auto-created
+            table,
+            root_path=DATA_DIR,
+            partition_cols=["symbol", "year", "month"]             # Creates folders like symbol=AAPL/year=2026/month=02
+        )
+        logger.info(f"Parquet written for {df['symbol'].iloc[0]} with {len(df)} rows.")
+    except Exception as e:
+        logger.error(f"Failed writing Parquet dataset: {e}")
+        raise
     
 def query_data(sql_query):
     """

@@ -1,103 +1,84 @@
 """
     Purpose of extractor.py:
-    Extraction pulls data from API. 
+    Extraction pulls data from Yahoo Finance (no API key needed).
 """
 
-import requests
-from tenacity import retry, stop_after_attempt, wait_exponential
+import yfinance as yf
 from loguru import logger
 import os
-from dotenv import load_dotenv
-import time                                             # For rate limit sleep
-import json 
+import json
 from datetime import datetime
 
-load_dotenv()                                           # Loads variables from .env file
-API_KEY = os.getenv("API_KEY")
-if not API_KEY:
-    raise ValueError("API_KEY not found. Please set it in the .env file.")
-
-
-BASE_URL = "https://www.alphavantage.co/query"
-
+# Base directory for state file
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE_FILE = os.path.join(BASE_DIR, "state", "last_extracted.json")
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
-#       Decorator from tenacity. Tries function 3 times, 
-#       waiting longer each time on errors like network issues. 
-#       Retries make it robust.
+# Ensure state directory exists
+os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
 
-def fetch_stock_data(symbol):
-    """
-        Fetches daily stock data for a given symbol through 
-        the Alpha Vantage API.
-    """
-    
-    logger.info(f"Fetching data for symbol: {symbol}")
-    
-    params = {
-        "function": "TIME_SERIES_DAILY",
-        "symbol": symbol,
-        "outputsize": "compact",                        # Last 100 days for efficiency
-        "apikey": API_KEY
-    }
-    response = requests.get(BASE_URL, params=params)    # Send GET request
-    response.raise_for_status()                         # checks for HTTP errors
-    
-    data = response.json()                              # Return dict from JSON
-    
-    if 'Note' in data:                                  # Handle rate limiting
-        logger.warning(f"Rate limit git for symbol 
-                       {symbol}. Sleeping 60 seconds")
-        time.sleep(60)                                  # Wait before retrying
-        return fetch_stock_data(symbol)                 # Recursive retry after sleep
-
-    return data                                         # Dict of stock data
-
-#   This is called in a loop later, with time.sleep(12) between calls for rate limits
-
-
-#   Adding Incremental logic to avoid reduntant data fetching
-
-import json 
-from datetime import datetime
-
-STATE_FILE = "../state/last_extracted.json"             # Relative path from src
 
 def load_state():
-    """ Loads last fetched dates from JSON file. """
+    """Loads last fetched dates from JSON file."""
     try:
-        with open (STATE_FILE, "r") as f:
+        with open(STATE_FILE, "r") as f:
             return json.load(f)
     except FileNotFoundError:
-        return{}                                        # Empty if first run
-    
+        return {}
+
+
 def save_state(state):
-    """ Saves updated state to JSON file. """
+    """Saves updated state to JSON file."""
     with open(STATE_FILE, "w") as f:
         json.dump(state, f)
-        
+
+
 def fetch_incremental(symbol):
     """
-        Fetches only new stock data since last fetch
-        Updates state with latest date
+    Fetches only new stock data since last fetch using Yahoo Finance.
+    Updates state with latest date.
     """
-    state = load_state()
-    last_date = state.get(symbol)                       # e.g. '2026-02-15'
-    
-    data = fetch_stock_data(symbol)
-    time_series = data.get("Time Series (Daily)", {})
-    
-    if last_date:
-        time_series = {d: v for d, v in time_series.items() if d > last_date} 
-#                          ^^^Filters new data^^^        
-    if time_series:
-        new_last = max(time_series.keys())[-1]          # Fetches latest date
-        state[symbol] = new_last
-        save_state(state)
-        
-    return time_series                                  # Dict of new dates to OHLCV data
 
-            
-    
+    logger.info(f"Fetching data for symbol: {symbol}")
+
+    state = load_state()
+    last_date = state.get(symbol)  # e.g. '2026-02-15'
+
+    # Fetch full history (Yahoo handles caching internally)
+    ticker = yf.Ticker(symbol)
+    df = ticker.history(period="5y")  # full history
+
+    if df.empty:
+        logger.warning(f"No data returned for {symbol}")
+        return {}
+
+    # Reset index to get date column
+    df = df.reset_index()
+
+    # Convert date to string for comparison
+    df["Date"] = df["Date"].dt.strftime("%Y-%m-%d")
+
+    # Filter incremental data
+    if last_date:
+        df = df[df["Date"] > last_date]
+
+    if df.empty:
+        logger.info(f"No new data for {symbol}")
+        return {}
+
+    # Update state with latest date
+    new_last = df["Date"].max()
+    state[symbol] = new_last
+    save_state(state)
+
+    # Convert to dict format similar to Alpha Vantage output
+    time_series = {}
+    for _, row in df.iterrows():
+        time_series[row["Date"]] = {
+            "1. open": row["Open"],
+            "2. high": row["High"],
+            "3. low": row["Low"],
+            "4. close": row["Close"],
+            "5. volume": row["Volume"],
+        }
+
+    return time_series

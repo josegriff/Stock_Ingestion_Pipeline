@@ -27,7 +27,7 @@ logger.add(LOG_PATH, rotation="500 MB")               # Logs to file, rotates at
 def run_pipeline():
     """ Runs ETL for all symbols in config"""
     
-    with open("../config/symbols.yaml", "r") as f:    # Load watchlist
+    with open(CONFIG_PATH, "r") as f:                 # Load watchlist
         config = yaml.safe_load(f)                    # Parses YAML safely
         symbols = config["symbols"]
         

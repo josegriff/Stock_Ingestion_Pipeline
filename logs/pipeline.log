@@ -1,0 +1,442 @@
+2026-02-24 16:13:59.165 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 16:13:59.979 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BP.L: [Errno 2] No such file or directory: '../state/last_extracted.json'
+2026-02-24 16:13:59.979 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 16:14:12.521 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 16:14:13.459 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing VOD.L: [Errno 2] No such file or directory: '../state/last_extracted.json'
+2026-02-24 16:14:13.459 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 16:14:26.303 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 16:14:27.372 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing LLOY.L: [Errno 2] No such file or directory: '../state/last_extracted.json'
+2026-02-24 16:20:45.151 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 16:20:45.826 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BP.L: [Errno 2] No such file or directory: '../state/last_extracted.json'
+2026-02-24 16:20:45.826 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 16:20:58.435 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 16:20:59.092 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing VOD.L: [Errno 2] No such file or directory: '../state/last_extracted.json'
+2026-02-24 16:20:59.092 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 16:21:11.713 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 16:21:12.691 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing LLOY.L: [Errno 2] No such file or directory: '../state/last_extracted.json'
+2026-02-24 16:21:49.187 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 16:21:49.932 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BP.L: '_cython_3_2_4.cython_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 16:21:49.933 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 16:22:02.521 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 16:22:03.277 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing VOD.L: '_cython_3_2_4.cython_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 16:22:03.284 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 16:22:15.920 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 16:22:16.627 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing LLOY.L: '_cython_3_2_4.cython_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 16:30:13.774 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 16:30:26.481 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 16:30:27.152 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing HSBA.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 16:30:27.167 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 16:30:39.789 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 16:30:40.431 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BARC.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 16:30:40.447 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 16:38:43.022 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 16:38:55.752 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 16:39:08.395 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 16:39:21.174 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 16:39:34.306 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 17:01:15.000 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 17:01:15.662 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BP.L: name 'logger' is not defined
+2026-02-24 17:01:15.662 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 17:01:16.134 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing HSBA.L: name 'logger' is not defined
+2026-02-24 17:01:16.134 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 17:01:16.716 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing VOD.L: name 'logger' is not defined
+2026-02-24 17:01:16.716 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 17:01:17.173 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BARC.L: name 'logger' is not defined
+2026-02-24 17:01:17.173 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 17:01:17.780 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing LLOY.L: name 'logger' is not defined
+2026-02-24 17:01:59.010 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 17:01:59.572 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:02:11.575 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 17:02:12.140 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:02:24.146 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 17:02:24.722 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:02:36.724 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 17:02:37.345 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:02:49.351 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 17:02:49.920 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:06:31.089 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 17:06:31.627 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:06:43.634 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 17:06:44.109 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:06:56.117 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 17:06:56.584 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:07:08.586 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 17:07:09.060 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:07:21.061 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 17:07:21.530 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:11:23.409 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 17:11:23.922 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:11:35.932 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 17:11:37.498 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:11:49.503 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 17:11:49.962 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:12:01.978 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 17:12:02.444 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:12:14.459 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 17:12:14.944 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:15:06.791 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 17:15:07.269 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:15:19.271 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 17:15:19.725 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:15:31.740 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 17:15:32.204 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:15:44.211 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 17:15:44.653 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:15:56.658 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 17:15:57.113 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:18:16.828 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 17:18:17.333 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:18:29.337 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: HSBA.L
+2026-02-24 17:18:29.784 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:18:41.790 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: VOD.L
+2026-02-24 17:18:42.257 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:18:54.269 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BARC.L
+2026-02-24 17:18:54.747 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:19:06.749 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: LLOY.L
+2026-02-24 17:19:07.189 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:22:14.692 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: AAPL
+2026-02-24 17:22:15.159 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:22:27.165 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: MSFT
+2026-02-24 17:22:27.625 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:22:39.627 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: TSLA
+2026-02-24 17:22:40.203 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:22:52.205 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: NVDA
+2026-02-24 17:22:52.840 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:23:04.841 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: AMZN
+2026-02-24 17:23:05.429 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:23:17.432 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: GOOGL
+2026-02-24 17:23:17.983 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:23:31.606 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: AAPL
+2026-02-24 17:23:32.042 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:23:44.050 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: MSFT
+2026-02-24 17:23:44.638 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:23:56.644 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: TSLA
+2026-02-24 17:23:57.256 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:24:09.262 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: NVDA
+2026-02-24 17:24:09.858 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:24:21.859 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: AMZN
+2026-02-24 17:24:22.600 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:24:34.607 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: GOOGL
+2026-02-24 17:24:35.230 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:24:47.233 | INFO     | src.extractor:fetch_stock_data:37 - Fetching data for symbol: BP.L
+2026-02-24 17:24:47.905 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:32:48.724 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 17:32:55.730 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:55.732 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:55.732 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 17:32:57.238 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:57.238 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:57.238 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 17:32:57.690 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:57.690 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:57.690 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 17:32:58.354 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:58.354 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:58.354 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 17:32:59.049 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:59.049 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:59.049 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 17:32:59.532 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:59.532 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:32:59.532 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BP.L
+2026-02-24 17:33:00.569 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:00.569 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BP.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:00.569 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: HSBA.L
+2026-02-24 17:33:01.486 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:01.487 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing HSBA.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:01.487 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: VOD.L
+2026-02-24 17:33:02.464 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:02.464 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing VOD.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:02.464 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BARC.L
+2026-02-24 17:33:03.316 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:03.316 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BARC.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:03.316 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: LLOY.L
+2026-02-24 17:33:04.083 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:33:04.083 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing LLOY.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:40:10.876 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 17:40:11.779 | INFO     | src.extractor:fetch_incremental:65 - No new data for AAPL
+2026-02-24 17:40:11.779 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:40:23.786 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 17:40:24.222 | INFO     | src.extractor:fetch_incremental:65 - No new data for MSFT
+2026-02-24 17:40:24.222 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:40:36.226 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 17:40:36.428 | INFO     | src.extractor:fetch_incremental:65 - No new data for TSLA
+2026-02-24 17:40:36.428 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:40:48.432 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 17:40:48.777 | INFO     | src.extractor:fetch_incremental:65 - No new data for NVDA
+2026-02-24 17:40:48.777 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:41:00.777 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 17:41:01.209 | INFO     | src.extractor:fetch_incremental:65 - No new data for AMZN
+2026-02-24 17:41:01.209 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:41:13.220 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 17:41:13.540 | INFO     | src.extractor:fetch_incremental:65 - No new data for GOOGL
+2026-02-24 17:41:13.540 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:41:25.542 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BP.L
+2026-02-24 17:41:26.127 | INFO     | src.extractor:fetch_incremental:65 - No new data for BP.L
+2026-02-24 17:41:26.127 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:41:38.128 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: HSBA.L
+2026-02-24 17:41:38.614 | INFO     | src.extractor:fetch_incremental:65 - No new data for HSBA.L
+2026-02-24 17:41:38.614 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:41:50.626 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: VOD.L
+2026-02-24 17:41:51.278 | INFO     | src.extractor:fetch_incremental:65 - No new data for VOD.L
+2026-02-24 17:41:51.278 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:42:03.279 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BARC.L
+2026-02-24 17:42:03.822 | INFO     | src.extractor:fetch_incremental:65 - No new data for BARC.L
+2026-02-24 17:42:03.822 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:42:15.823 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: LLOY.L
+2026-02-24 17:42:16.238 | INFO     | src.extractor:fetch_incremental:65 - No new data for LLOY.L
+2026-02-24 17:42:16.238 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:43:28.496 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 17:43:29.457 | INFO     | src.extractor:fetch_incremental:65 - No new data for AAPL
+2026-02-24 17:43:29.457 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:43:29.459 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AAPL
+2026-02-24 17:43:41.458 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 17:43:41.870 | INFO     | src.extractor:fetch_incremental:65 - No new data for MSFT
+2026-02-24 17:43:41.872 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:43:41.872 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for MSFT
+2026-02-24 17:43:53.871 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 17:43:54.093 | INFO     | src.extractor:fetch_incremental:65 - No new data for TSLA
+2026-02-24 17:43:54.093 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:43:54.093 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for TSLA
+2026-02-24 17:44:06.093 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 17:44:06.385 | INFO     | src.extractor:fetch_incremental:65 - No new data for NVDA
+2026-02-24 17:44:06.401 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:44:06.401 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for NVDA
+2026-02-24 17:44:18.400 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 17:44:18.684 | INFO     | src.extractor:fetch_incremental:65 - No new data for AMZN
+2026-02-24 17:44:18.686 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:44:18.686 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AMZN
+2026-02-24 17:44:30.686 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 17:44:30.961 | INFO     | src.extractor:fetch_incremental:65 - No new data for GOOGL
+2026-02-24 17:44:30.961 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:44:30.961 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for GOOGL
+2026-02-24 17:44:42.968 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BP.L
+2026-02-24 17:44:43.391 | INFO     | src.extractor:fetch_incremental:65 - No new data for BP.L
+2026-02-24 17:44:43.392 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:44:43.393 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for BP.L
+2026-02-24 17:44:55.391 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: HSBA.L
+2026-02-24 17:44:55.930 | INFO     | src.extractor:fetch_incremental:65 - No new data for HSBA.L
+2026-02-24 17:44:55.931 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:44:55.932 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for HSBA.L
+2026-02-24 17:45:07.931 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: VOD.L
+2026-02-24 17:45:08.378 | INFO     | src.extractor:fetch_incremental:65 - No new data for VOD.L
+2026-02-24 17:45:08.380 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:45:08.380 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for VOD.L
+2026-02-24 17:45:20.378 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BARC.L
+2026-02-24 17:45:20.941 | INFO     | src.extractor:fetch_incremental:65 - No new data for BARC.L
+2026-02-24 17:45:20.943 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:45:20.944 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for BARC.L
+2026-02-24 17:45:32.942 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: LLOY.L
+2026-02-24 17:45:33.307 | INFO     | src.extractor:fetch_incremental:65 - No new data for LLOY.L
+2026-02-24 17:45:33.307 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:45:33.307 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for LLOY.L
+2026-02-24 17:46:56.728 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 17:46:57.858 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:57.858 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:57.858 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 17:46:58.564 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:58.564 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:58.564 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 17:46:58.880 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:58.880 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:58.880 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 17:46:59.416 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:59.416 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:59.416 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 17:46:59.995 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:59.995 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:46:59.995 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 17:47:00.436 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:00.438 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:00.438 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BP.L
+2026-02-24 17:47:01.161 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:01.161 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BP.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:01.161 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: HSBA.L
+2026-02-24 17:47:01.866 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:01.866 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing HSBA.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:01.866 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: VOD.L
+2026-02-24 17:47:02.637 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:02.637 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing VOD.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:02.637 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: BARC.L
+2026-02-24 17:47:03.363 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:03.363 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing BARC.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:03.364 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: LLOY.L
+2026-02-24 17:47:03.991 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:47:03.991 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing LLOY.L: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:52:45.647 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 17:52:46.494 | INFO     | src.extractor:fetch_incremental:65 - No new data for AAPL
+2026-02-24 17:52:46.494 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:52:46.494 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AAPL
+2026-02-24 17:52:58.495 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 17:52:59.113 | INFO     | src.extractor:fetch_incremental:65 - No new data for MSFT
+2026-02-24 17:52:59.113 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 17:52:59.113 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for MSFT
+2026-02-24 17:53:11.114 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 17:53:45.853 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 17:53:47.081 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:47.081 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:47.081 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 17:53:47.798 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:47.798 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:47.798 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 17:53:48.122 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:48.122 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:48.122 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 17:53:48.622 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:48.622 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:48.622 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 17:53:49.227 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:49.227 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:49.232 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 17:53:49.642 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 17:53:49.643 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:17.159 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:08:20.360 | INFO     | src.extractor:fetch_incremental:65 - No new data for AAPL
+2026-02-24 18:08:20.360 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:08:20.360 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AAPL
+2026-02-24 18:08:32.360 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:08:32.780 | INFO     | src.extractor:fetch_incremental:65 - No new data for MSFT
+2026-02-24 18:08:32.781 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:08:32.781 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for MSFT
+2026-02-24 18:08:49.263 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:08:50.530 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:50.531 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:50.531 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:08:51.351 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:51.352 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:51.352 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:08:51.741 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:51.742 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:51.742 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:08:52.315 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:52.315 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:52.315 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:08:52.980 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:52.981 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:52.981 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:08:53.437 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:08:53.438 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:18:34.509 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:18:35.320 | INFO     | src.extractor:fetch_incremental:65 - No new data for AAPL
+2026-02-24 18:18:35.321 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:18:35.321 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AAPL
+2026-02-24 18:18:47.320 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:18:47.767 | INFO     | src.extractor:fetch_incremental:65 - No new data for MSFT
+2026-02-24 18:18:47.767 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:18:47.767 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for MSFT
+2026-02-24 18:18:59.766 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:19:00.184 | INFO     | src.extractor:fetch_incremental:65 - No new data for TSLA
+2026-02-24 18:19:00.185 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:19:00.185 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for TSLA
+2026-02-24 18:19:12.185 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:19:12.498 | INFO     | src.extractor:fetch_incremental:65 - No new data for NVDA
+2026-02-24 18:19:12.499 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:19:12.499 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for NVDA
+2026-02-24 18:19:24.499 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:19:24.872 | INFO     | src.extractor:fetch_incremental:65 - No new data for AMZN
+2026-02-24 18:19:24.873 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:19:24.873 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AMZN
+2026-02-24 18:19:36.873 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:19:37.346 | INFO     | src.extractor:fetch_incremental:65 - No new data for GOOGL
+2026-02-24 18:19:37.347 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:19:37.347 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for GOOGL
+2026-02-24 18:20:24.045 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:20:25.238 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:25.239 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:25.239 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:20:26.026 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:26.026 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:26.026 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:20:26.349 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:26.349 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:26.349 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:20:26.937 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:26.937 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:26.937 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:20:27.514 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:27.515 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:27.515 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:20:27.954 | ERROR    | src.loader:load_to_parquet:33 - Failed converting DatafFrame to Arrow Table: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:20:27.955 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: 'builtin_function_or_method' object has no attribute 'from_pandas'
+2026-02-24 18:24:55.241 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:24:56.022 | INFO     | src.extractor:fetch_incremental:65 - No new data for AAPL
+2026-02-24 18:24:56.023 | WARNING  | src.loader:load_to_parquet:25 - No new data to write - skipping Parquet load.
+2026-02-24 18:24:56.023 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AAPL
+2026-02-24 18:25:11.351 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:25:12.981 | ERROR    | src.loader:load_to_parquet:43 - Failed writing Parquet dataset: Fragment would be written into 11391 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:12.982 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: Fragment would be written into 11391 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:12.984 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:25:13.773 | ERROR    | src.loader:load_to_parquet:43 - Failed writing Parquet dataset: Fragment would be written into 10065 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:13.775 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: Fragment would be written into 10065 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:13.775 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:25:14.093 | ERROR    | src.loader:load_to_parquet:43 - Failed writing Parquet dataset: Fragment would be written into 3938 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:14.093 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: Fragment would be written into 3938 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:14.093 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:25:14.639 | ERROR    | src.loader:load_to_parquet:43 - Failed writing Parquet dataset: Fragment would be written into 6814 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:14.639 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: Fragment would be written into 6814 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:14.640 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:25:15.252 | ERROR    | src.loader:load_to_parquet:43 - Failed writing Parquet dataset: Fragment would be written into 7239 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:15.252 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: Fragment would be written into 7239 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:15.253 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:25:15.680 | ERROR    | src.loader:load_to_parquet:43 - Failed writing Parquet dataset: Fragment would be written into 5413 partitions. This exceeds the maximum of 1024
+2026-02-24 18:25:15.680 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: Fragment would be written into 5413 partitions. This exceeds the maximum of 1024
+2026-02-24 18:30:15.948 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:30:17.460 | INFO     | src.loader:load_to_parquet:41 - Parquet written for AAPL with 11391 rows.
+2026-02-24 18:30:17.460 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AAPL
+2026-02-24 18:30:29.461 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:30:30.619 | INFO     | src.loader:load_to_parquet:41 - Parquet written for MSFT with 10065 rows.
+2026-02-24 18:30:30.621 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for MSFT
+2026-02-24 18:30:42.620 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:30:43.174 | INFO     | src.loader:load_to_parquet:41 - Parquet written for TSLA with 3938 rows.
+2026-02-24 18:30:43.175 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for TSLA
+2026-02-24 18:30:55.175 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:30:56.348 | INFO     | src.loader:load_to_parquet:41 - Parquet written for NVDA with 6814 rows.
+2026-02-24 18:30:56.349 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for NVDA
+2026-02-24 18:31:08.349 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:31:09.594 | INFO     | src.loader:load_to_parquet:41 - Parquet written for AMZN with 7239 rows.
+2026-02-24 18:31:09.595 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AMZN
+2026-02-24 18:31:21.595 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:31:22.406 | INFO     | src.loader:load_to_parquet:41 - Parquet written for GOOGL with 5413 rows.
+2026-02-24 18:31:22.406 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for GOOGL
+2026-02-24 18:34:20.310 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:34:23.164 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: Invalid comparison between dtype=datetime64[us] and Timestamp
+2026-02-24 18:34:23.164 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:34:23.912 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: Invalid comparison between dtype=datetime64[us] and Timestamp
+2026-02-24 18:34:23.912 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:34:24.256 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: Invalid comparison between dtype=datetime64[us] and Timestamp
+2026-02-24 18:34:24.257 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:34:24.947 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: Invalid comparison between dtype=datetime64[us] and Timestamp
+2026-02-24 18:34:24.947 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:34:25.511 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: Invalid comparison between dtype=datetime64[us] and Timestamp
+2026-02-24 18:34:25.512 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:34:26.032 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: Invalid comparison between dtype=datetime64[us] and Timestamp
+2026-02-24 18:43:17.026 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:43:17.813 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AAPL: Invalid comparison between dtype=datetime64[s, America/New_York] and Timestamp
+2026-02-24 18:43:17.814 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:43:18.190 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing MSFT: Invalid comparison between dtype=datetime64[s, America/New_York] and Timestamp
+2026-02-24 18:43:18.190 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:43:18.373 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing TSLA: Invalid comparison between dtype=datetime64[s, America/New_York] and Timestamp
+2026-02-24 18:43:18.373 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:43:18.704 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing NVDA: Invalid comparison between dtype=datetime64[s, America/New_York] and Timestamp
+2026-02-24 18:43:18.705 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:43:18.980 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing AMZN: Invalid comparison between dtype=datetime64[s, America/New_York] and Timestamp
+2026-02-24 18:43:18.982 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:43:19.193 | ERROR    | src.orchestrator:run_pipeline:45 - Error processing GOOGL: Invalid comparison between dtype=datetime64[s, America/New_York] and Timestamp
+2026-02-24 18:48:11.218 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AAPL
+2026-02-24 18:48:12.179 | INFO     | src.loader:load_to_parquet:41 - Parquet written for AAPL with 1256 rows.
+2026-02-24 18:48:12.180 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AAPL
+2026-02-24 18:48:24.180 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: MSFT
+2026-02-24 18:48:24.443 | INFO     | src.loader:load_to_parquet:41 - Parquet written for MSFT with 1256 rows.
+2026-02-24 18:48:24.443 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for MSFT
+2026-02-24 18:48:36.445 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: TSLA
+2026-02-24 18:48:36.727 | INFO     | src.loader:load_to_parquet:41 - Parquet written for TSLA with 1256 rows.
+2026-02-24 18:48:36.727 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for TSLA
+2026-02-24 18:48:48.729 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: NVDA
+2026-02-24 18:48:48.977 | INFO     | src.loader:load_to_parquet:41 - Parquet written for NVDA with 1256 rows.
+2026-02-24 18:48:48.978 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for NVDA
+2026-02-24 18:49:00.978 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: AMZN
+2026-02-24 18:49:01.227 | INFO     | src.loader:load_to_parquet:41 - Parquet written for AMZN with 1256 rows.
+2026-02-24 18:49:01.227 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for AMZN
+2026-02-24 18:49:13.228 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
+2026-02-24 18:49:13.481 | INFO     | src.loader:load_to_parquet:41 - Parquet written for GOOGL with 1256 rows.
+2026-02-24 18:49:13.482 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for GOOGL
