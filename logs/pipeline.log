@@ -440,3 +440,9 @@
 2026-02-24 18:49:13.228 | INFO     | src.extractor:fetch_incremental:41 - Fetching data for symbol: GOOGL
 2026-02-24 18:49:13.481 | INFO     | src.loader:load_to_parquet:41 - Parquet written for GOOGL with 1256 rows.
 2026-02-24 18:49:13.482 | INFO     | src.orchestrator:run_pipeline:41 - Successfully loaded new data for GOOGL
+2026-02-24 19:48:04.364 | ERROR    | src.orchestrator:run_pipeline:44 - Error processing AAPL: fetch_incremental() missing 1 required positional argument: 'config'
+2026-02-24 19:48:04.365 | ERROR    | src.orchestrator:run_pipeline:44 - Error processing MSFT: fetch_incremental() missing 1 required positional argument: 'config'
+2026-02-24 19:48:04.365 | ERROR    | src.orchestrator:run_pipeline:44 - Error processing TSLA: fetch_incremental() missing 1 required positional argument: 'config'
+2026-02-24 19:48:04.366 | ERROR    | src.orchestrator:run_pipeline:44 - Error processing NVDA: fetch_incremental() missing 1 required positional argument: 'config'
+2026-02-24 19:48:04.366 | ERROR    | src.orchestrator:run_pipeline:44 - Error processing AMZN: fetch_incremental() missing 1 required positional argument: 'config'
+2026-02-24 19:48:04.366 | ERROR    | src.orchestrator:run_pipeline:44 - Error processing GOOGL: fetch_incremental() missing 1 required positional argument: 'config'

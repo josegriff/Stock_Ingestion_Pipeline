@@ -1,40 +1,60 @@
+"""
+Purpose of transformer.py:
+Transforms raw Yahoo Finance OHLCV DataFrame into a clean,
+analytics-ready DataFrame with symbol, year, month, and date fields.
+"""
+
 import pandas as pd
+from loguru import logger
 
-def transform_data(symbol, time_series):
+
+def transform_data(df, symbol):
     """
-    Converts Yahoo dict into a DataFrame.
+    Takes a native Yahoo Finance DataFrame and enriches it with:
+    - symbol
+    - date (string)
+    - year
+    - month
+    - day
+
+    Returns a clean DataFrame ready for loading.
     """
 
-    if not time_series:
-        return pd.DataFrame()   # Always return a DataFrame
+    if df.empty:
+        logger.warning(f"Transformer received empty DataFrame for {symbol}")
+        return pd.DataFrame()
 
-    df = pd.DataFrame.from_dict(time_series, orient='index')
+    # Ensure Date column exists
+    if "Date" not in df.columns:
+        logger.error(f"Missing 'Date' column in DataFrame for {symbol}. Columns: {df.columns}")
+        return pd.DataFrame()
 
-    df.index.name = "date"
-    df.reset_index(inplace=True)
+    # Convert Date to datetime if needed
+    if not pd.api.types.is_datetime64_any_dtype(df["Date"]):
+        df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
 
-    df.rename(columns={
-        '1. open': 'open',
-        '2. high': 'high',
-        '3. low': 'low',
-        '4. close': 'close',
-        '5. volume': 'volume',
-    }, inplace=True)
+    df = df.dropna(subset=["Date"])  # remove invalid dates
 
-    df["date"] = pd.to_datetime(df["date"])   
-
-    df["year"] = df["date"].dt.year
-    df["month"] = df["date"].dt.month
-
-    df = df.astype({
-        'open': float,
-        'high': float,
-        'low': float,
-        'close': float,
-        'volume': int,
-    })
-
+    # Add symbol column
     df["symbol"] = symbol
-    df["ingested_at"] = pd.Timestamp.utcnow()
+
+    # Add date parts
+    df["year"] = df["Date"].dt.year
+    df["month"] = df["Date"].dt.month
+    df["day"] = df["Date"].dt.day
+
+    # Convert Date to string for partitioning
+    df["date_str"] = df["Date"].dt.strftime("%Y-%m-%d")
+
+    # Reorder columns (optional but clean)
+    ordered_cols = [
+        "symbol", "Date", "date_str",
+        "Open", "High", "Low", "Close", "Volume",
+        "year", "month", "day"
+    ]
+
+    df = df[ordered_cols]
+
+    logger.info(f"Transformed DataFrame for {symbol}: {len(df)} rows")
 
     return df
