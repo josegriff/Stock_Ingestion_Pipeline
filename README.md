@@ -56,7 +56,7 @@ Python Reporting (report.py)
 - Incremental extraction using a persistent state file
 - Config‑driven watchlist and pipeline settings
 - Clean transformation with enforced schema
-- Partitioned Parquet output (symbol/year/month)
+- Partitioned Parquet output (`symbol/year/month`)
 - Snappy compression for efficient storage
  
 ### Analytics
@@ -116,12 +116,12 @@ python analytics/report.py
 
 
 ## Configuration
-config.yaml
+`config.yaml`
 Controls ingestion settings:
 - years_back
 - data and state directories
 - partitioning scheme
-watchlist.yaml
+`watchlist.yaml`
 Defines the list of symbols to ingest.
 
 ## Example Outputs
